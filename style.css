@@ -58,7 +58,7 @@
 }
 
 #intro div #introducing {
-    font-size: 35px;
+    font-size: 50px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
@@ -66,7 +66,7 @@
 
 #intro div #product {
     color: var(--vv-color);
-    font-size: 50px;
+    font-size: 70px;
     font-family: "Bruno Ace SC", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -75,7 +75,7 @@
 }
 
 #intro div #description {
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-style: italic;
@@ -241,9 +241,9 @@ form {
 }
 
 #email {
-    width: 400px;
-    height: 40px;
-    font-size: 20px;
+    width: 700px;
+    height: 70px;
+    font-size: 30px;
     font-weight: bold;
     border-radius: 10px;
     padding-left: 10px;
@@ -255,10 +255,10 @@ form {
 #submit {
     background-color: blueviolet;
     color: white;
-    height: 40px;
-    width: 100px;
+    height: 70px;
+    width: 200px;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
     border-radius: 20px;
 }

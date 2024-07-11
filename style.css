@@ -27,14 +27,14 @@
 }
 
 #logo {
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
 }
 
 #slogan {
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2%;
@@ -104,18 +104,20 @@
     flex-direction: column;
 }
 
-#details-text {
+.details-text {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-size: 60px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     align-self: center;
+    width: 60%;
+    text-align: center;
 }
 
 
-#details-desc {
+.details-desc {
     padding-bottom: 30px;
     align-self: center;
     text-wrap: wrap;
@@ -224,29 +226,39 @@
     align-items: center;
 }
 
+#pins {
+    display: flex;
+    justify-content: center;
+}
+
 #subscribe-text {
+    text-align: center;
     color: white;
     font-size: 20px;
     padding-top: 20px;
     font-weight: bold;
 }
 
-#subscribe-text::before {
-    content: "Subscribe";
+#footer h1 {
+    font-family: "Roboto", sans-serif;
     color: var(--vv-color);
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
 }
 
 form {
     padding-top: 20px;
+    display: flex;
 }
 
-#email {
+#fieldEmail {
     width: 700px;
     height: 70px;
     font-size: 30px;
     font-weight: bold;
     border-radius: 10px;
-    padding-left: 10px;
+    padding-left: 20px;
     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
     -moz-box-sizing: border-box;    /* Firefox, other Gecko */
     box-sizing: border-box;         /* Opera/IE 8+ */
@@ -282,6 +294,7 @@ form {
 
 #footer p {
     color: white;
+    padding-top: 40px;
     padding-bottom: 25px;
     font-size: 15px;
 }
